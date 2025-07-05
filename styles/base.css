@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Fira Code', monospace;
     margin: 0;
 }
 
@@ -40,6 +40,8 @@ main {
     grid-template-columns: 3fr 2fr;
     gap: 20px;
     padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
     background-color: #d3d3d3; /* ash color */
 }
 
