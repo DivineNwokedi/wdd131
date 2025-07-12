@@ -97,17 +97,3 @@ footer {
   padding: 1em;
   text-align: center;
 }
-
-@media (max-width: 768px) {
-  #hamburger-btn {
-    display: block;
-  }
-  #nav-menu {
-    display: none;
-  }
-  #nav-menu.show {
-    display: flex;
-  }
-}
-
-
