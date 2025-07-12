@@ -10,3 +10,8 @@ hamburgerBtn.addEventListener('click', () => {
     navMenu.style.display = navMenu.style.display === 'block' ? 'none' : 'block';
     hamburgerBtn.innerHTML = navMenu.style.display === 'block' ? 'X' : '';
 });
+
+document.getElementById('hamburger-btn').addEventListener('click', function() {
+  document.getElementById('nav-menu').classList.toggle('show');
+});
+
