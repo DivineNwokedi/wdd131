@@ -18,43 +18,23 @@ header {
   padding: 1em;
 }
 
-header h1 {
-  margin: 0;
-}
-
-nav {
+nav ul {
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-#hamburger-btn {
-  background-color: #333;
-  border: none;
-  color: #fff;
-  font-size: 1.5em;
-  cursor: pointer;
-  display: block;
-}
-
-#nav-menu {
   list-style: none;
-  display: none;
-  flex-direction: column;
-  align-items: center;
+  margin: 0;
   padding: 0;
 }
 
-#nav-menu li {
-  margin-bottom: 1em;
+nav li {
+  margin-right: 20px;
 }
 
-#nav-menu a {
+nav a {
   color: #fff;
   text-decoration: none;
 }
 
-#nav-menu a:hover {
+nav a:hover {
   color: #ccc;
 }
 
@@ -97,3 +77,4 @@ footer {
   padding: 1em;
   text-align: center;
 }
+
