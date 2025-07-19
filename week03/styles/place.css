@@ -36,5 +36,5 @@ main {
 }
 
 .weather-icon {
-  display: none; /* You could show this only on mobile */
+  display: none;
 }
