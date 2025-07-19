@@ -1,0 +1,40 @@
+:root {
+  --primary-color: #006400;
+  --accent-color: #f00;
+  --bg-color: #fff;
+  --text-color: #000;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  margin: 0;
+  padding: 0;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+@media (min-width: 600px) {
+  main {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .weather h2::after {
+    content: " ⛅";
+  }
+}
+
+.weather-icon {
+  display: none; /* You could show this only on mobile */
+}
