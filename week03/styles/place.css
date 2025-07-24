@@ -5,6 +5,9 @@
   --text-color: #000;
 }
 
+header{
+  padding: 1rem;
+}
 body {
   font-family: Arial, sans-serif;
   color: var(--text-color);
@@ -37,4 +40,8 @@ main {
 
 .weather-icon {
   display: none;
+}
+
+footer{
+padding: 1rem;
 }
