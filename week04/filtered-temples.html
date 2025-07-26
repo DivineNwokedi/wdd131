@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filtered Temples</title>
+  <meta name="description" content="Enhanced temple album with filtering and lazy loading">
+  <meta name="author" content="Divine Nwokedi">
+  <link rel="stylesheet" href="styles/filtered-temples.css">
+</head>
+<body>
+  <header>
+    <h1>Temple Album</h1>
+    <nav>
+      <ul>
+        <li><button id="home-btn">Home</button></li>
+        <li><button id="old-btn">Old</button></li>
+        <li><button id="new-btn">New</button></li>
+        <li><button id="large-btn">Large</button></li>
+        <li><button id="small-btn">Small</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div id="temple-cards-container" class="gallery"></div>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Filtered Temple Album</p>
+    <p>Last modified: <span id="last-modified"></span></p>
+  </footer>
+
+  <script src="scripts/filtered-temples.js" defer></script>
+</body>
+</html>
