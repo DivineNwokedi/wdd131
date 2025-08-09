@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Vine Travel Guide</title>
+  <link rel="stylesheet" href="styles/website.css" />
+</head>
+<body>
+
+  <header>
+    <nav>
+      <h1>The Vine Travel Guide</h1>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Destinations</a></li>
+        <li><a href="#">Travel Tips</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Explore the world through stories and snapshots</h2>
+    <p>Budget-friendly travel guides, tips, and inspiration for students and young adventurers.</p>
+    <button onclick="scrollToSection('destinations')">Start Exploring</button>
+  </section>
+
+  <section id="destinations" class="content-section">
+    <h2>Featured Destinations</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="images/paris.webp" alt="Paris">
+        <h3>Paris on a Budget</h3>
+        <p>Discover affordable ways to enjoy the City of Light.</p>
+      </div>
+      <div class="card">
+        <img src="images/capetown.webp" alt="Cape Town">
+        <h3>Cape Town Adventures</h3>
+        <p>Hiking, beaches, and vibrant culture in South Africa.</p>
+      </div>
+      <div class="card">
+        <img src="images/lagos.webp" alt="Lagos">
+        <h3>Weekend in Lagos</h3>
+        <p>Explore Nigeria’s bustling city with local insights.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-section">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="email" name="email" placeholder="Your email" required />
+      <textarea name="message" placeholder="Your message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p id="formResponse"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 The Vine Travel Guide</p>
+    <div class="socials">
+      <a href="#">Instagram</a>
+      <a href="#">TikTok</a>
+      <a href="#">YouTube</a>
+    </div>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>
