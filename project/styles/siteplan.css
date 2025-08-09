@@ -1,0 +1,23 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  margin: 2rem;
+}
+
+h1, h2 {
+  color: #006699; /* Primary Color */
+}
+
+p {
+  font-family: 'Georgia', serif;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.wireframe img {
+  width: 50%; /* Shrinks image to half its container width */
+  height: auto;
+}
