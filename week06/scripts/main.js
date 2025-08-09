@@ -11,6 +11,20 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
   this.reset();
 });
 
-document.getElementById('menuToggle').addEventListener('click', () => {
-  document.getElementById('navLinks').classList.toggle('show');
-});
+const toggle = document.getElementById('menuToggle');
+const nav = document.getElementById('navLinks');
+
+// Check if elements exist before adding listeners
+if (toggle && nav) {
+  // Toggle menu on click
+  toggle.addEventListener('click', () => {
+    nav.classList.toggle('show');
+  });
+
+  // Toggle menu on Enter key press (accessibility)
+  toggle.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter' || e.keyCode === 13) {
+      nav.classList.toggle('show');
+    }
+  });
+}
