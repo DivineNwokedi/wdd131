@@ -10,3 +10,7 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
   document.getElementById('formResponse').textContent = "Thanks for reaching out! We'll get back to you soon.";
   this.reset();
 });
+
+document.getElementById('menuToggle').addEventListener('click', () => {
+  document.getElementById('navLinks').classList.toggle('show');
+});
